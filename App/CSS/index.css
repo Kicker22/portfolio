@@ -49,9 +49,34 @@
     font-size: 1.5rem;
 }
 
+.skills-wrapper{
+    padding: 3rem;
+    background: rgb(245, 105, 11);
+}
+
+.skills-container{
+    width: 30%;
+    margin-top: 3rem;
+    background-color:whitesmoke ;
+}
+.skills-list{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.skills-list-item{
+    text-decoration: underline;
+    margin-right: 1rem;
+    font-size: 24px;
+}
+
 .projects-wrapper{
     padding: 3rem;
-    margin-top: 10rem;
+    /* margin-top: 10rem;    */
 
 }
 
@@ -67,6 +92,23 @@
     justify-content: space-between;
 }
 
+
+
+/* Media querrys  */
+
+
+
+@media only screen and (min-width: 1900px){
+    .skills-container{
+        height: 20rem;
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .skills-container{
+        width: fit-content;
+    }
+}
 
     
 
