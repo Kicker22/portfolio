@@ -19,14 +19,20 @@ const skills = [
   "Firebase",
 ];
 
-for (l = 0; l < skills.length; l++) {
-  let listItem = document.createElement("li");
-  listItem.innerText = skills[l];
-  listItem.classList.add("skills-list-item");
-  document.querySelector("skills-list").append(listItem);
-  console.log(listI`tem);
 
-  // console.log(skills[l])
+document.addEventListener("DOMContentLoaded", function(event) {     
+  for (l = 0; l < skills.length; l++) {
+    const listItem = document.createElement("li");
+    const text = skills[l];
+    
+    console.log(listItem);
+    
+    listItem.value = text;
+    listItem.innerHTML = text;
 
+    listItem.classList.add("skills-list-item");
 
-}
+    document.getElementById('skillsList').append(listItem);  
+  
+  }
+});

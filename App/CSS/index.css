@@ -1,3 +1,5 @@
+
+
 .navbar{
     background: rgb(65, 64, 64);
     position: sticky; top: 0;
@@ -10,6 +12,7 @@
 }
 
 .jumbotron{
+    margin: 0;
     height: 54rem;
     background:linear-gradient(0deg,rgba(0, 0, 0, 0.424),rgba(0, 0, 0, 0.438)),url(banner.jpg);
     background-size:cover;
@@ -18,9 +21,6 @@
     background-attachment: fixed;
 
 }
-.profile-picture{
-    height: 250px;
-}
 .jumbo-info{
     position: absolute;
     top:  50%;
@@ -28,14 +28,15 @@
     transform: translate(-50%,-50%);
 }
 
-.welcome-container{
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 3rem;
-    margin-top: 5rem;
-}
+
+
+
+
+
+
+
+
 
 .blog-btn{
     background: rgb(255, 118, 6);
@@ -49,48 +50,36 @@
     font-size: 1.5rem;
 }
 
-.skills-wrapper{
-    padding: 3rem;
-    background: rgb(245, 105, 11);
-}
+/* content container */
 
-.skills-container{
-    width: 30%;
-    margin-top: 3rem;
-    background-color:whitesmoke ;
-}
-.skills-list{
-    padding: 1rem;
+.content-wrapper{
+    background: transparent;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    list-style: none;
-
 }
 
-.skills-list-item{
-    text-decoration: underline;
-    margin-right: 1rem;
-    font-size: 24px;
+.content-container{
+    width: 90%;
+    background: darkgrey;
 }
 
-.projects-wrapper{
-    padding: 3rem;
-    /* margin-top: 10rem;    */
+/* welcome info */
 
+
+.welcome-container{
+    margin-top: 5rem;
+    width: 90%;
+    border: 1px solid black;
+}
+.profile-picture{
+    height: 250px;
 }
 
-.list-item{
-    margin-bottom: 2rem;
-}
 
-.projects-container{
-    padding: 2rem;
-    margin-top: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
+
 
 
 
